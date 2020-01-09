@@ -1,30 +1,15 @@
 # cv
 
-## Configurar el proyecto
-Ingrese al contenedor con
+## Requisitos
+- Docker.
+- Docker Compose.
+
+## Empezando
+Elija un directorio y ejecute
 ```
-docker exec -it mi-cv_node_1 bash
-```
-Dentro del contenedor ejecute
-```
+git clone https://github.com/Nacimiento98/cv.git cv
+
 cd cv/
-npm install
-```
 
-### Compilar y recargas en caliente para desarrollo
+docker-compose up
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
