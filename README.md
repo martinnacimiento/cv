@@ -1,11 +1,17 @@
 # cv
 
-## Project setup
+## Configurar el proyecto
+Ingrese al contenedor con
 ```
+docker exec -it mi-cv_node_1 bash
+```
+Dentro del contenedor ejecute
+```
+cd cv/
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar y recargas en caliente para desarrollo
 ```
 npm run serve
 ```
