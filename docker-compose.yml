@@ -4,7 +4,7 @@ services:
 
     node:
         build: .
-        working_dir: /home/node/app/cv
+        working_dir: /home/node/app
         volumes:
         - .:/home/node/app
         expose:

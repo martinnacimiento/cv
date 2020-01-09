@@ -1,7 +1,8 @@
 FROM node
 
 # Se instala las dependencias
-COPY ["package.json", "package-lock.json", "/home/node/app/cv/"]
+WORKDIR /home/node/app/cv
+COPY package*.json ./
 RUN npm install
 
 # Se instala Vue CLI globalmente en el contenedor
