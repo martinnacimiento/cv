@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 /dist
+cv-key-project
+cv-key-project.pub
 
 # local env files
 .env.local

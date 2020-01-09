@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+    node:
+        build: .
+        working_dir: /home/node/app
+        volumes:
+        - .:/home/node/app
+        expose:
+        - "8005-8006"
+        ports:
+        - "8005:8005"   # vue-cli
+        - "8006:8006"   # app
