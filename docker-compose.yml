@@ -7,6 +7,7 @@ services:
         working_dir: /home/node/app
         volumes:
         - .:/home/node/app
+        - node_modules
         expose:
         - "8005-8006"
         ports:
